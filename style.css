@@ -1,0 +1,118 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial;
+}
+
+/* Navbar */
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:20px 40px;
+
+  position:fixed;
+  width:100%;
+
+  background:transparent;
+
+  transition:0.4s;
+}
+
+/* Logo */
+.logo{
+  color:rgba(254, 244, 244, 0.882);
+  font-size:24px;
+  font-weight:bold;
+}
+
+/* Menu */
+.nav-links{
+  display:flex;
+  list-style:none;
+}
+
+.nav-links li{
+  margin-left:20px;
+}
+
+.nav-links a{
+  color:rgb(235, 30, 235);
+  text-decoration:none;
+  font-size:18px;
+}
+
+/* Hover */
+.nav-links a:hover{
+  color:rgb(32, 13, 237);
+}
+
+/* Scroll Effect */
+.scrolled{
+  background:rgb(2, 10, 16);
+}
+
+/* Hero Section */
+.hero{
+  height:100vh;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  background:linear-gradient(to right,#4facfe,#00f2fe);
+
+  color:rgb(20, 7, 14);
+}
+
+.hero h1{
+  font-size:50px;
+}
+
+.hero p{
+  margin-top:10px;
+  font-size:20px;
+}
+
+button{
+  margin-top:20px;
+  padding:12px 25px;
+
+  border:none;
+  border-radius:5px;
+
+  cursor:pointer;
+}
+
+button:hover{
+  background:yellow;
+}
+/* Content Sections */
+.content{
+  height:100vh;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  text-align:center;
+  background:linear-gradient(to right,#4facfe,#00f2fe);
+  padding:40px;
+}
+
+.content h1{
+  font-size:40px;
+  margin-bottom:20px;
+}
+
+.content p{
+  font-size:20px;
+  max-width:700px;
+}
