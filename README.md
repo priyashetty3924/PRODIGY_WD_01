@@ -9,7 +9,9 @@ A modern and responsive landing page developed using HTML, CSS, and JavaScript a
 - Optimized for better user experience
 
 # Technologies Used
-
+-HTML
+-CSS
+-Javascript
 
 # Internship Task
     Task-01:Responsive Landing Page
