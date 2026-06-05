@@ -8,10 +8,8 @@ A modern and responsive landing page developed using HTML, CSS, and JavaScript a
 - Modern styling using CSS
 - Optimized for better user experience
 
-# Project Structure
-├── index.html
-├── style.css
-├── script.js
+# Technologies Used
+
 
 # Internship Task
-    Task-01: Responsive Landing Page
+    Task-01:Responsive Landing Page
